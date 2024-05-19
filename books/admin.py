@@ -1,0 +1,8 @@
+from django.contrib import admin
+from .models import Book, Profile, UserShelf, Rating, Category
+# Register your models here.
+admin.site.register(Book)
+admin.site.register(Profile)
+admin.site.register(UserShelf)
+admin.site.register(Rating)
+admin.site.register(Category)
