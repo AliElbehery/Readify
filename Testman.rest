@@ -1,0 +1,21 @@
+POST http://127.0.0.1:8000/accounts/signup/
+Content-Type: application/json
+
+{
+    "username": "ali_d",
+    "first_name": "ali",
+    "last_name": "elbehery",
+    "email": "ali4@test.com",
+    "phone": 1010901499 ,
+    "password": "Ali123"
+}
+
+###
+
+POST http://127.0.0.1:8000/accounts/login/
+Content-Type: application/json
+
+{
+    "email": "elbharya59@gmail.com",
+    "password": "123456789"
+}
